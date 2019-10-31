@@ -4,8 +4,8 @@
 written by @QIN ZIXUAN
 2019/10/31
 qin.z.aa@m.titech.ac.jp
-
-==================================
+Tokyo Institute of Technology
+=====================================================================================
 how to use it:
 1. from smk import *
 2. you can send command by "smk.send_data(command)", command can reference to below:
@@ -20,6 +20,7 @@ how to use it:
 5. after acquire all of the data, just use ctrl+c to do KeyboardInterrupt, the data
 will be saved automatically.
 6. use smk.port_open() or smk.port_close() to connect or disconnect the port.
+======================================================================================
 """
 
 import serial
